@@ -1,0 +1,119 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+protected/bower_components/*
+protected/extensions/giix/*
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+.tmb
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.htaccess
+cache.properties
+
+# Composer #
+############
+composer.lock
+
+#  Yii     #
+############
+vendor/*
+build/**/*
+bin/*
+phpdoc/*
+cache/*
+
+www/protected/config/local.php
+#www/js/components_bower/*
+#www/assets/*
+#www/protected/runtime/*
+#www/.htaccess
+
+#  Logs  #
+##########
+logs/*
+temp/*
+upload_log.txt
+
+# Programms generated files #
+#############################
+.idea/
+
+
+# Created by https://www.gitignore.io/api/osx,sublimetext
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
