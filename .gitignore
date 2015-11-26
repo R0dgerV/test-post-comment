@@ -56,9 +56,9 @@ cache/*
 
 www/protected/config/local.php
 #www/js/components_bower/*
-#www/assets/*
-#www/protected/runtime/*
-#www/.htaccess
+www/assets/*
+www/protected/runtime/*
+www/.htaccess
 
 #  Logs  #
 ##########
